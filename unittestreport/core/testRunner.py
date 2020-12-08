@@ -1,9 +1,11 @@
 """
 ============================
-Author:柠檬班-木森
-Time:2020/7/7   14:47
-E-mail:3247119728@qq.com
-Company:湖南零檬信息技术有限公司
+# -*-coding:utf-8-*-
+# @Time    :2020/11/11 15:04
+# @Author  :JS_ErvinChiu
+# @Email   :qiuxiongfei@jushiwangedu.com
+# @File    :Test_Case.py
+# @Software:PyCharm
 ============================
 
 本模块主要是为了解决多线程运行unittest测试用例的问题
@@ -30,7 +32,7 @@ class TestRunner():
                  filename="report.html",
                  report_dir=".",
                  title='测试报告',
-                 tester='木森',
+                 tester='ErvinChiu',
                  desc="XX项目测试生产的报告",
                  templates=1
                  ):
