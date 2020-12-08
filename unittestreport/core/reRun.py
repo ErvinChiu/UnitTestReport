@@ -1,9 +1,11 @@
 """
 ============================
-Author:柠檬班-木森
-Time:2020/8/19   17:33
-E-mail:3247119728@qq.com
-Company:湖南零檬信息技术有限公司
+# -*-coding:utf-8-*-
+# @Time    :2020/11/11 15:04
+# @Author  :JS_ErvinChiu
+# @Email   :qiuxiongfei@jushiwangedu.com
+# @File    :Test_Case.py
+# @Software:PyCharm
 ============================
 """
 
@@ -17,7 +19,7 @@ def run_count(count, interval, func, *args, **kwargs):
         try:
             func(*args, **kwargs)
         except Exception as e:
-            print("====用例执行失败===")
+            print("====用例执行失败====")
             traceback.print_exc()
             if i + 1 == count:
                 raise e
